@@ -91,7 +91,7 @@ function App() {
             <div>
               <div className='data'>
           <img src={'https://openweathermap.org/img/wn/' 
-            + allData.weatherIcons +'@2x.png'}/>
+            + allData.weatherIcons +'@2x.png'} alt=''/>
 
         <h1 className='title'>
           {allData.city}</h1>
