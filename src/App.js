@@ -2,7 +2,7 @@
 //import {useState, useEffect} from 'react';
 //import axios from 'axios';
 
-//var App = require("./App.css");
+var App = require("./App.css");
 var useState = require("react");
 var useEffect = require("react");
 var axios = require("axios");
