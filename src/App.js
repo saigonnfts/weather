@@ -2,7 +2,7 @@
 //import {useState, useEffect} from 'react';
 //import axios from 'axios';
 
-var Apps = require("./App.css");
+var App = require("./App.css");
 var useState = require("react");
 var useEffect = require("react");
 var axios = require("axios");
@@ -26,7 +26,7 @@ POST YOUR SOLUTIONS IN THE #react CHANNEL ON OUR DISCORD!
 */
 
 
-function App() {
+function Apps() {
   const [search, setSearch] = useState('')
   const [allData, setAllData] = useState({
     city:'New York',
@@ -125,4 +125,4 @@ function App() {
   );
 }
 
-export default App;
+export default Apps;
