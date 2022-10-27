@@ -1,7 +1,11 @@
-import './App.css';
-import {useState, useEffect} from 'react';
-import axios from 'axios';
+//import './App.css';
+//import {useState, useEffect} from 'react';
+//import axios from 'axios';
 
+//var App = require("./App.css");
+var useState = require("react");
+var useEffect = require("react");
+var axios = require("axios");
 // our application is a weather app
 // what will our app do????
 // 1. we want to grab data from a database somewhere of the weather
